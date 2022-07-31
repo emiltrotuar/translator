@@ -15,5 +15,11 @@
       "js": ["translator.js"],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "translator-ff@example.com",
+      "strict_min_version": "103.0"
+    }
+  }
 }
